@@ -1,0 +1,21 @@
+.container {
+  padding-top: 25vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.postLinksList {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.postLinkContainer {
+  margin-bottom: 12px;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.postLink:hover {
+  opacity: 0.9;
+}
